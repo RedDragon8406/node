@@ -25,3 +25,15 @@ $("#footer_button").click(function(){
     var lastname=$("#lastname").val();
     var number=$("#number").val();
     })
+    $("#eeta").click(function(){
+        alert("هنوز ساخته نشده...")
+    })
+    $("#gap").click(function(){
+        alert("هنوز ساخته نشده...")
+    })
+    $("#souroosh").click(function(){
+        alert("هنوز ساخته نشده...")
+    })
+    $("#bale").click(function(){
+        alert("هنوز ساخته نشده...")
+    })
