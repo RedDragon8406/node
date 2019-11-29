@@ -82,7 +82,7 @@
 }
 
 .input{
-    padding:10px 5px;width: 250px;font-size:20px;font-family: Arial, Helvetica, sans-serif;   
+    padding:10px 5px;width: 250px;font-size:20px;font-family: Arial, Helvetica, sans-serif;text-align: right;  
 }
 
 .input_search{
@@ -138,6 +138,7 @@
 .dont_signup{
     font-weight: 600px;
     font-size: 20px;
+    font-family: Arial;
 }
 .search_b_location{
     margin-left: -40px;
@@ -151,4 +152,10 @@
     text-align: center;
     color:white;
     font-weight: bold;
+}
+.search_box{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 100px;
 }

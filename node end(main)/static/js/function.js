@@ -36,3 +36,15 @@
         })
         $('.input').focus().toggleClass('action-width').val('');
     })    
+    $("#eeta").click(function(){
+        alert("هنوز ساخته نشده...");
+    })
+    $("#souroosh").click(function(){
+        alert("هنوز ساخته نشده...");
+    })
+    $("#bale").click(function(){
+        alert("هنوز ساخته نشده...");
+    })
+    $("#gap").click(function(){
+        alert("هنوز ساخته نشده...");
+    })
