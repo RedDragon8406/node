@@ -1,0 +1,22 @@
+.search_box{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 100px;
+    text-align: end;
+    padding-right: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    outline: 10px;
+    color: rgb(39, 38, 38);
+    font-weight: 600;
+    font-size: 20px;
+}
+.fas{
+    margin-right: 125px;
+    margin-left: -130px ;
+    color: #42be11;
+    font-weight: 600;
+    font-size: 20px;
+}

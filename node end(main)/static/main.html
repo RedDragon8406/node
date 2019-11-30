@@ -13,34 +13,43 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/search.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">    
+    <link rel="stylesheet" href="./css/searchmain.css">
 </head>
 
 
     <body>
         <header>
         <nav align="right">
-            <!--<input id="search_box" class="search_box" placeholder="جستجو کنید...">-->
+        <div>
+                    <input id="search_box" class="search_box" placeholder="...جستجو کنید">
+                    <i class="fas fa-search"></i>
+
+
             <ul>
-                <li><a href="#">آموزش ها</a>
+                <li><a class="active" href="/main"><i class="fa fa-fw fa-home" ></i>  خانه</a></li>
+                <li><a href="#">دسته بندی    <i class="fa fa-fw fa-list" ></i></a>
+                    <ul>
+                <li><a href="#"><i class="fa fa-fw fa-pen" ></i>  آموزش ها</a>
                 <ul>
                 <li><a href="#">بیزینس مدل</a></li>
                 <li><a href="#">برنامه نویسی وب</a></li>
                 <li><a href="#">متفرقه</a></li>
             </ul>
         </li>
-                <li><a href="#">محصولات</a>
+                <li><a href="#"><i class="fa fa-fw fa-mobile" ></i>   محصولات</a>
                 <ul>
                     <li><a href="#">کشاورزی</a></li>
                     <li><a href="#">لوازم دیجیتال</a></li>
                 </ul>
             </li>
-
-                <li><a href="/scob">درباره اسکوب</a></li>
-                <li><a href="#">تماس با ما</a></li>
-                <li><a href="/login">ورود</a></li>
+        </ul>
+    </li>
+                <li><a href="/scob"><i class="fa fa-fw fa-book" ></i> درباره اسکوب</a></li>
+                <li><a href="#"><i class="fa fa-fw fa-phone" ></i>   تماس با ما</a></li>
+                <li><a href="/login"><i class="fa fa-fw fa-user"></i>  ورود</a></li>
             </ul>
         <a href="/main"><img src="./images/scob persian.png" style="width: 100px;height: 100px;margin-bottom: -25px;" alt=""></a>
-            
+        </div>
         </nav>
 
         <div class="wrapper">
