@@ -8,10 +8,12 @@
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    outline: 10px;
+    outline: 0px;
     color: rgb(39, 38, 38);
     font-weight: 600;
     font-size: 20px;
+    margin-top: 30px; 
+    vertical-align: top;
 }
 .fas{
     margin-right: 125px;
@@ -19,4 +21,5 @@
     color: #42be11;
     font-weight: 600;
     font-size: 20px;
+    vertical-align: 15px;
 }

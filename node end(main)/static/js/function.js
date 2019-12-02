@@ -24,18 +24,7 @@
         var firstname=$("#firstname").val();
         var lastname=$("#lastname").val();
         var number=$("#number").val();
-        })
-    
-    $('.searchbtn').click(function(){
-        $(this).toggleClass('bg-green');
-        $('.fas').toggleClass('color-white');
-        $('.input').focus(function(){
-            $('.fas').click(function(){
-                alert($("#search_button").val());
-            })
-        })
-        $('.input').focus().toggleClass('action-width').val('');
-    })    
+        })   
     $("#eeta").click(function(){
         alert("هنوز ساخته نشده...");
     })
@@ -45,6 +34,6 @@
     $("#bale").click(function(){
         alert("هنوز ساخته نشده...");
     })
-    $("#gap").click(function(){
+    $("#whatsapp").click(function(){
         alert("هنوز ساخته نشده...");
     })

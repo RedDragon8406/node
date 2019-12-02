@@ -27,7 +27,7 @@ nav ul li {
 }
  
 nav ul li:hover {
-	background: #a70101;
+	background: rgb(17, 160, 17);;
 }
  
 nav ul li:hover a {
@@ -42,7 +42,7 @@ nav ul li a {
 	text-decoration: none;
 }
 nav ul ul {
-	background: #9c0000;
+	background: rgb(19, 187, 19);
 	border-radius: 0px;
 	padding: 0;
 	position: absolute;
@@ -53,8 +53,8 @@ nav ul ul {
 }
 nav ul ul li {
 	float: none;
-	border-top: 1px solid #940000;
-	border-bottom: 1px solid #940000;
+	border-top: 1px solid rgb(17, 160, 17);
+	border-bottom: 1px solid rgb(17, 160, 17);
 	position: relative;
 	font-family: Arial, Helvetica, sans-serif;
 }
