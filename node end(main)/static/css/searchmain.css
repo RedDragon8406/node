@@ -1,0 +1,21 @@
+.border{
+	border-width: 5px;
+	border-style: double;
+	width: 500px;height: 200px;
+	overflow: auto;
+}
+.pad{
+	text-align: right;
+	margin-right: 87.5px;
+	margin-bottom: 10px;
+}
+.font{
+	font-size: large;
+	font-weight: 400;
+	font-style: italic;
+}
+.imgstyle{
+	width:200px;
+	height:110px;
+	margin-right:-425px;
+}
