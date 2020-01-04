@@ -1,9 +1,38 @@
-.head_darbare{
-	margin-top: 62.5;
-	font-size: 50px;
-	font-family: Arial, Helvetica, sans-serif;
+.image_1 {
+	margin-top : 125px;
+	width : 100%;
+	
 }
-.darbare{
-	font-size:30px;
-	font-family: Arial, Helvetica, sans-serif;
+.text_1 {
+	font-family: rezvan;
+	font-weight: 400;
+	font-size: 40px ;
+	color : white ;
+	position : absolute ;
+	top : 300px ;
+	left : 50px ;
+
+}
+
+.text_2 {
+	font-family: rezvan;
+	font-weight: 400;
+	font-size: 40px ;
+	color : white ;
+	position : absolute ;
+	top : 375px ;
+	left : 100px ;
+
+}
+ .Title_1{
+	font-family: chamran;
+	color : rgb(0, 119, 255);
+	text-align: center;
+	
+ }
+.dar{
+	font-family: yekan;
+	font-size: 20px;
+	color: rgb(116, 116, 116);
+	text-align: center;
 }

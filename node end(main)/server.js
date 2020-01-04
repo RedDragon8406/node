@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var mongoose=require('mongoose');
-var https=require('https');
+var mongoose = require('mongoose');
+var https = require('https');
 var app = express();
 app.use(bodyParser());
 
@@ -21,38 +21,38 @@ db.on("error",function(err){
     
 });
 */
-app.use(express.static(__dirname+"/static"));
-var usernames={name1:"123",name2:"12"};
-var information={firstname:"0"};
+app.use(express.static(__dirname + "/static"));
+var usernames = { name1: "123", name2: "12" };
+var information = { firstname: "0" };
 
 
-app.use('/main', function(req,res,next) {
-        console.log("main");
-        res.sendFile(__dirname+"/static/main.html");
+app.use('/main', function (req, res, next) {
+    console.log("main");
+    res.sendFile(__dirname + "/static/main.html");
 });
-app.use('/login', function(req,res,next){
-        console.log("login");
-        res.sendFile(__dirname+"/static/login.html");
+app.use('/login', function (req, res, next) {
+    console.log("login");
+    res.sendFile(__dirname + "/static/login.html");
 });
-app.use('/signup',function(req,res,next){
-        console.log("signup");
-        res.sendFile(__dirname+"/static/signup.html");
+app.use('/signup', function (req, res, next) {
+    console.log("signup");
+    res.sendFile(__dirname + "/static/signup.html");
 });
-app.use('/scob',function(req,res,next){
+app.use('/scob', function (req, res, next) {
     console.log("scob");
-    res.sendFile(__dirname+"/static/darbare scob.html");
+    res.sendFile(__dirname + "/static/darbare scob.html");
 });
-app.use('/search',function(req,res,next){
-        console.log("search");
-        res.sendFile(__dirname+"/static/search.html");
+app.use('/search', function (req, res, next) {
+    console.log("search");
+    res.sendFile(__dirname + "/static/search.html");
 });
-app.post('/search_b',function(req,res,next){
+app.post('/search_b', function (req, res, next) {
     console.log("search");
     res.send(req.body["search_i"]);
 });
 
 
-app.post('/login_b',function(req,res,next){
+app.post('/login_b', function (req, res, next) {
     /*console.log(req.body);
     for(user in usernames){
         if(req.body["user"]==user){
@@ -66,31 +66,31 @@ app.post('/login_b',function(req,res,next){
         }
     }res.send("user is wrong");
     */
-   /*
-    u='./login/user/'+req.body["user"]+".txt"
-    p='./login/pass/'+req.body["pass"]+'.txt'
-    try{
-        if(fs.existsSync(u)){
-            if(fs.existsSync(p)){
-                res.send("logined");
-                return;
-            }else{
-                res.send("user or pass is wrong!");
-                return;
-            }
-        }else{
-            res.send("user or pass is wrong!");
-            return;
-        }
-
-    }catch(err) {
-        console.error(err);
-      }
-      */
+    /*
+     u='./login/user/'+req.body["user"]+".txt"
+     p='./login/pass/'+req.body["pass"]+'.txt'
+     try{
+         if(fs.existsSync(u)){
+             if(fs.existsSync(p)){
+                 res.send("logined");
+                 return;
+             }else{
+                 res.send("user or pass is wrong!");
+                 return;
+             }
+         }else{
+             res.send("user or pass is wrong!");
+             return;
+         }
+ 
+     }catch(err) {
+         console.error(err);
+       }
+       */
 });
 //__________________________________________________________
 //__________________________________________________________
-app.post('/signup_b',function(req,res,next){
+app.post('/signup_b', function (req, res, next) {
     /*for(user in usernames){
         if(req.body["username"]==user){
             res.send("this username is not available");
