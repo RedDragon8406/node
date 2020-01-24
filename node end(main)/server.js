@@ -46,8 +46,13 @@ app.use('/search', function (req, res, next) {
     console.log("search");
     res.sendFile(__dirname + "/static/search.html");
 });
+app.use('/cart', function (req, res, next) {
+    console.log("shopcart");
+    res.sendFile(__dirname+"/static/shopcart.html");
+});
+
 app.post('/search_b', function (req, res, next) {
-    console.log("search");
+    console.log("search!!");
     res.send(req.body["search_i"]);
 });
 
@@ -91,6 +96,27 @@ app.post('/login_b', function (req, res, next) {
 //__________________________________________________________
 //__________________________________________________________
 app.post('/signup_b', function (req, res, next) {
+    
+});
+
+
+app.listen(8000);
+console.log("connected!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*for(user in usernames){
         if(req.body["username"]==user){
             res.send("this username is not available");
@@ -152,8 +178,3 @@ app.post('/signup_b', function (req, res, next) {
         fs.appendFile('')
     })
     */
-});
-
-
-app.listen(8000);
-console.log("connected!");
