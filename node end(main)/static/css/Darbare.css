@@ -26,13 +26,13 @@
 }
  .Title_1{
 	font-family: chamran;
-	color : rgb(0, 119, 255);
+	color : rgba(0, 255, 0, 0.705);
 	text-align: center;
 	
  }
 .dar{
 	font-family: yekan;
 	font-size: 20px;
-	color: rgb(116, 116, 116);
+	color: rgba(255, 255, 0, 0.884);
 	text-align: center;
 }
