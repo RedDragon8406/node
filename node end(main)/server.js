@@ -58,45 +58,45 @@ app.post('/search_b', function (req, res, next) {
 
 
 app.post('/login_b', function (req, res, next) {
-    /*console.log(req.body);
-    for(user in usernames){
-        if(req.body["user"]==user){
-            if(req.body["pass"]==usernames[user]){
-                res.send("logined");
-                return;
-            }else{
-                res.send("pass is wrong");
-                return;
-            }
-        }
-    }res.send("user is wrong");
-    */
-    /*
-     u='./login/user/'+req.body["user"]+".txt"
-     p='./login/pass/'+req.body["pass"]+'.txt'
-     try{
-         if(fs.existsSync(u)){
-             if(fs.existsSync(p)){
-                 res.send("logined");
-                 return;
-             }else{
-                 res.send("user or pass is wrong!");
-                 return;
-             }
-         }else{
-             res.send("user or pass is wrong!");
-             return;
+     var result = true;
+     var arr = fs.readFileSync('./login/u/all.txt').toString().split("\n");
+     for(i in arr) {
+         if(req.body["user"] == arr[i]){
+             console.log('it has it noob');
          }
- 
-     }catch(err) {
-         console.error(err);
-       }
-       */
+         else{
+            //  console.log("the pass is : "+array[i]);
+            //  console.log("the asli is : "+req.body["user"]);
+            //  console.log(req.body["pass"] == array[i]);
+             console.log("wowowowowow");
+             result = false
+         }
+     }
+     if(result == true){
+         res.send("you succesfully logined")
+     } 
+   
+    var array = fs.readFileSync('./login/u/pass.txt').toString().split("\n");
+    for(i in array) {
+        if(req.body["pass"] == array[i]){
+            console.log('it has it noob');
+        }
+        else{
+            // console.log("the pass is : "+array[i]);
+            // console.log("the asli is : "+req.body["pass"]);
+            // console.log(req.body["pass"] == array[i]);
+            console.log("wowowowowow");
+            result = false
+        }
+    }
+    if(result == true){
+        res.send("you succesfully logined")
+    }
 });
 //__________________________________________________________
 //__________________________________________________________
 app.post('/signup_b', function (req, res, next) {
-    
+    res.send("now not");
 });
 
 
