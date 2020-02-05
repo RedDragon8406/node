@@ -5,6 +5,7 @@
     <script type="text/javascript" src="./js/function.js"></script>
     <link rel="stylesheet" href="./css/c.css">
     <link rel="stylesheet" href="./css/menu.css">
+    <link rel="icon" href="./images/Scob ico.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="./css/fonts.css">
 
@@ -17,11 +18,10 @@
 <body>
     <header>
         <div class="topnav">
-            <a href="/main"><img src="./images/scob persian.png"
-                    style="width: 100px;height: 100px;margin-top: -42.5px;margin-bottom: -42.5px;" alt=""></a>
-                    <input class="search_input" type="text" id="search_i" placeholder="جستجو کنید..." name="search">
+            <img src="./images/scob persian.png" align = "right" class = "Scob-ic" alt=""></a>
+                    <input class="search_input" type="text" id="search_i" placeholder="...جستجو کنید" name="search">
                     <button class="search_but" type="submit" id="search_b"><i class="fa fa-search"></i></button>
-            <a href="/login"><i class="far fa-address-card"></i> ورود</a>
+                    <a href = "/login"><button class = "login-but"><i class = "far fa-address-card"> ورود    </i></button></a>
             <br>
             <br>
             <br>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <a href="/scob"><i class="fa fa-fw fa-book"></i> درباره اسکوب</a>
-            <a href="#"><i class="fa fa-fw fa-phone"></i> تماس با ما</a>
+            <a href="/call"><i class="fa fa-fw fa-phone"></i> تماس با ما</a>
             
             
         </div>
@@ -49,7 +49,10 @@
     </header>
     <br>
     <br>
-
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
     <div align="center" style="border-width: medium;">
 
@@ -64,11 +67,10 @@
             <button id="login" class="button">!وارد شوید</button>
         </form>
         <br>
-        <p class="dont_signup">:حساب کاربری ندارید؟حساب کاربری جدید بسازید</p>
+        <a href = "/signup"<p class="dont_signup">حساب کاربری ندارید؟حساب کاربری جدید بسازید</p>
         <br>
         <br>
-        <a href="/signup">
-            <button class="go_signup">ثبت نام</button>
+        
         </a>
     </div>
     <script src="./js/function.js"></script>
