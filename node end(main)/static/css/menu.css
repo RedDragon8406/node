@@ -87,3 +87,50 @@
 .navbar a:hover, .dd:hover .dropbutt {
   background-color: #2196F3;
 }
+
+/***************************************/
+.dd2 {
+  float: right;
+  overflow: hidden;
+}
+
+.dd2 .dropbutt2 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: negaar;
+
+}
+
+
+.dd-con2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dd-con2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dd-con2 a:hover {
+  background-color: #ddd;
+}
+
+.dd2:hover .dd-con2 {
+  display: block;
+}
+.navbar a:hover, .dd2:hover .dropbutt2 {
+  background-color: #2196F3;
+}
