@@ -51,6 +51,11 @@ app.use('/cart', function (req, res, next) {
     res.sendFile(__dirname+"/static/shopcart.html");
 });
 
+app.use('/calls', function (req, res, next) {
+    console.log("tamas");
+    res.sendFile(__dirname+"/static/Calls.html");
+});
+
 app.post('/search_b', function (req, res, next) {
     console.log("search!!");
     res.send(req.body["search_i"]);
@@ -96,7 +101,7 @@ app.post('/login_b', function (req, res, next) {
 //__________________________________________________________
 //__________________________________________________________
 app.post('/signup_b', function (req, res, next) {
-    res.send("now not");
+    res.send("It's changing . Don't signup now , please.");
 });
 
 

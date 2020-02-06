@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(255 , 255 , 255);
 }
 .login{
     padding-left: 75px;
@@ -173,7 +173,6 @@ body{
     position: absolute;
     left : 450px;
     background-color: rgb(206, 206, 206);
-    color: blue;
     font-weight: 600;
     border: 0;
     text-align: right;

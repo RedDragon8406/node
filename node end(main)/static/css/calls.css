@@ -1,0 +1,32 @@
+.email-box{
+    font-family: yekan;
+    margin-left : 450px ;
+    height: 30px;
+    width: 300px;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-color: royalblue;
+    border-radius: 5px;
+}
+
+.the-email{
+    font-family: yekan;
+    margin-left: 450px;
+    height: 200px;
+    width: 400px;
+    border-color: royalblue;
+    border-radius: 7px;
+}
+
+.email-send-button{
+    font-family: yekan;
+    background-color: rgb(84, 129, 214);
+    border-color : rgba(255, 255, 255, 0.63);
+    color: white;
+    border-style: solid;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 800px;
+}

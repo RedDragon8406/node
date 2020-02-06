@@ -27,3 +27,4 @@ $("#footer_button").click(function () {
     var lastname = $("#lastname").val();
     var number = $("#number").val();
 })
+
