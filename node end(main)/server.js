@@ -55,6 +55,12 @@ app.use('/calls', function (req, res, next) {
     console.log("tamas");
     res.sendFile(__dirname+"/static/Calls.html");
 });
+app.use('/python-1', function (req, res, next) {
+    console.log("tamas");
+    res.sendFile(__dirname+"/static/python-starter.html");
+});
+
+
 
 app.post('/search_b', function (req, res, next) {
     console.log("search!!");
