@@ -37,6 +37,7 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
+    font-family: yekan;
 }
 .menu{
     font-family: Arial, Helvetica, sans-serif;
@@ -79,13 +80,13 @@ body{
     background-color: rgb(21, 255, 0);
     color: black;
     font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: yekan;
     border-width: initial;
     border-color: rgb(97, 97, 97);
 }
 
 .input{
-    padding:10px 5px;width: 250px;font-size:20px;font-family: Arial, Helvetica, sans-serif;text-align: right;  
+    padding:10px 5px;width: 250px;font-size:20px;font-family: yekan;text-align: right;  
 }
 
 .input_search{
@@ -248,4 +249,8 @@ body{
     width: 125px;
     height: 35px;
     border-radius: 30px;
+}
+
+.login-font{
+    font-family: yekan;
 }

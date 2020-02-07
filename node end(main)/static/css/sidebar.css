@@ -1,0 +1,27 @@
+.sidebar{
+    margin-top: -600px;
+    margin-left: 37px;
+    height: 1000px;
+    width: 200px;
+    background-color: rgb(168, 166, 166);
+}
+
+.main-rect{
+    margin-top: 175px;
+    margin-left: 25px;
+    height: 1050px;
+    width: 95%;
+    background-color: rgb(206, 204, 204);
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(117, 117, 117);
+}
+
+.video{
+    margin-top: 20px;
+    margin-left: 250px;
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+}
