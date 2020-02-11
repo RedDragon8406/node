@@ -8,6 +8,8 @@
     <title>جست و جو|اسکوب</title>
     <script type="text/javascript" src="./js/jquery.js"></script>
     <script type="text/javascript" src="./js/function.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./css/search_p.css">
     <link rel="stylesheet" href="./css/searchmain.css">
     <link rel="stylesheet" href="./css/search.css">
@@ -25,14 +27,15 @@
 <body>
     <header>
         <div class="topnav">
-            <img src="./images/scob persian.png" align = "right" class = "Scob-ic" alt=""></a>
-            <a href = "/login"><button class = "login-but"><i class = "far fa-address-card"> ورود    </i></button></a>
+            <img src="./images/scob persian.png" align="right" class="Scob-ic" alt=""></a>
+            <a href="/login"><button class="login-but"><i class="far fa-address-card"> ورود </i></button></a>
             <br><br>
             <br>
             <br>
             <a style="border-radius: 15px;" class="active" href="/main"><i class="fa fa-fw fa-home"></i> خانه</a>
             <div class="dd">
-                <button style="border-radius: 25px;" class="dropbutt"><i class="fa fa-fw fa-list" style="transform: rotate(180deg);"></i> دسته
+                <button style="border-radius: 25px;" class="dropbutt"><i class="fa fa-fw fa-list"
+                        style="transform: rotate(180deg);"></i> دسته
                     بندی</button>
                 <div class="dd-con">
                     <a href="#"><i class="fa fa-fw fa-mobile"></i> محصولات</a>
@@ -47,41 +50,102 @@
             </div>
             <a style="border-radius: 25px;" href="/scob"><i class="fa fa-fw fa-book"></i> درباره اسکوب</a>
             <a style="border-radius: 25px;" href="/calls"><i class="fa fa-fw fa-headset"></i> تماس با ما</a>
-            <a style="background-color: rgb(114, 165, 207);border-radius: 25px;" href="/cart"><i class="fa fa-fw fa-shopping-cart"></i>سبد خرید من</a>
-            
+            <a style="background-color: rgb(114, 165, 207);border-radius: 25px;" href="/cart"><i
+                    class="fa fa-fw fa-shopping-cart"></i>سبد خرید من</a>
+
         </div>
     </header>
-    <br><br><br><br><br><br><br><br><br>
-    <section>
-        <header>
-            <h2 align="right"><button class="allCourses">همه ی دوره ها</button>--------------------------------------نتایج جستجو</h2>
-        </header>
+    <br><br><br><br><br><br><br>
+    <main>
+        <section>
+            <header>
+                <h2 align="center"><button class="allCourses">همه ی دوره ها</button>--------------------------------------نتایج جستجو</h2>
+            </header>
         <div class="courses" align = "center">
+            <div class="course" align = "center">
+                    <div class="border">
+                        <a href="/python-1"><img src="./images/search/python-tut.png" class="image-box"></a>
+                        <button class="enterCourse">مشاهده ی دوره</button>                       
+                            <div class="p-box">آموزش پایتون مقدماتی</div>
+                            <br>
+                            <label dir="rtl" class="price-box">رایگان</label>
+                            <span class="timer">0:06:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                            <br><br>
+                    </div>
+                    <div class="border">
+                        <img src="./images/search/python-int.png" class="image-box">
+                        <div class="p-box">آموزش پایتون متوسط</div>
+                        <br>
+                        <label dir="rtl" class="price-box"> 25000 تومان </label>
+                        <span class="timer">0:00:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                        <br><br>
+                    </div>
+            </div>
 
-            <div align="right" class="course">
+            <div class="course" align = "center">
                 <div class="border">
-                    <p align="center" class="top">آموزش پایتون مقدماتی</p>
-                    <a href="/python-1"><img align="center" src="./images/search/python.jpg" class="imgstyle" alt=""></a>
+                    <a href="/python-1"><img src="./images/search/python-high.png" class="image-box"></a>
+                    <button class="enterCourse">مشاهده ی دوره</button>                       
+                        <div class="p-box">آموزش پایتون پیشرفته</div>
+                        <br>
+                        <label dir="rtl" class="price-box">30000 تومان</label>
+                        <span class="timer">0:00:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                        <br><br>
                 </div>
-
-                <div class="border" style="margin-left: auto;">
-                    <p align="center" class="top">آموزش پایتون متوسط</p>
-                    <img align="center" src="./images/search/python.jpg" class="imgstyle" alt="">
+                <div class="border">
+                    <img src="./images/search/unity.png" class="image-box" >
+                    <div dir="rtl" class="p-box">آموزش unity</div>
+                    <br>
+                    <label dir="rtl" class="price-box">رایگان</label>
+                    <span class="timer">0:00:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                    <br><br>
                 </div>
             </div>
 
-            <div align="right" class="course">
+            <div class="course" align = "center">
                 <div class="border">
-                    <p align="center" class="top">آموزش پایتون پیشرفته</p>
-                    <img align="center" src="./images/search/python.jpg" class="imgstyle" alt="">
+                    <a href="/python-1"><img src="./images/search/html_css_-_tut.png" class="image-box"></a>
+                    <button class="enterCourse">مشاهده ی دوره</button>                       
+                        <div dir="rtl" class="p-box">آموزش طراحی سایت مقدماتی</div>
+                        <br>
+                        <label dir="rtl" class="price-box">رایگان</label>
+                        <span class="timer">0:00:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                        <br><br>
                 </div>
-
-                <div class="border" style="margin-left: auto;">
-                    <p align="center" class="top">آموزش ماژول در پایتون</p>
-                    <img align="center" src="./images/search/python.jpg" class="imgstyle" alt="">
+                <div class="border">
+                    <img src="./images/search/html_css_-_int.png" class="image-box" >
+                    <div dir="rtl" class="p-box">آموزش طراحی سایت پیشرفته</div>
+                    <br>
+                    <label dir="rtl" class="price-box"> 50000 تومان </label>
+                    <span class="timer">0:00:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                    <br><br>
                 </div>
             </div>
-    </section>
+
+            <div class="course" align = "center">
+                <div class="border">
+                    <a href="/python-1"><img src="./images/search/node_js.png" class="image-box"></a>
+                    <button class="enterCourse">مشاهده ی دوره</button>                       
+                        <div dir="rtl" class="p-box">آموزش node js</div>
+                        <br>
+                        <label dir="rtl" class="price-box">40000 تومان</label>
+                        <span class="timer">0:00:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                        <br><br>
+                </div>
+                <div class="border">
+                    <img src="./images/search/tkinter.png" class="image-box" >
+                    <div dir="rtl" class="p-box">آموزش پایتون گرافیکی(GUI)</div>
+                    <br>
+                    <label dir="rtl" class="price-box"> 20000 تومان </label>
+                    <span class="timer">0:00:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    </main>
+
 </body>
 
 </html>

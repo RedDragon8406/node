@@ -64,7 +64,6 @@ app.use('/python-1', function (req, res, next) {
 
 app.post('/search_b', function (req, res, next) {
     console.log("search!!");
-    res.send(req.body["search_i"]);
     res.sendFile(__dirname+"/static/search.html")
 });
 
