@@ -1,0 +1,11 @@
+.hr-main-1{
+	border: 1px solid black;
+}
+
+.lastate-posts{
+	font-family: yekan;
+	font-size: 30px;
+	text-align: right;
+	margin-right: 10px;
+	color: rgb(0,162,252)
+}
