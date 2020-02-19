@@ -6,7 +6,7 @@ body{
     padding-right: 75px;
     padding-top: 12.5px;
     padding-bottom: 50px;
-    background-color: red;
+    background-color: rgb(0, 130, 216);
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block ;
     border-style: groove;
@@ -249,8 +249,13 @@ body{
     width: 125px;
     height: 35px;
     border-radius: 30px;
+	font-family: negaar;
 }
 
 .login-font{
     font-family: yekan;
+}
+
+.text-login{
+	font-family: negaar;
 }
