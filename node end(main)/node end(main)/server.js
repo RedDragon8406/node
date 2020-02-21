@@ -56,10 +56,13 @@ app.use('/calls', function (req, res, next) {
     res.sendFile(__dirname+"/static/Calls.html");
 });
 app.use('/python-1', function (req, res, next) {
-    console.log("tamas");
+    console.log("python-1");
     res.sendFile(__dirname+"/static/python-starter.html");
 });
-
+app.use('/html-1', function (req, res, next) {
+    console.log("html-1");
+    res.sendFile(__dirname+"/static/html - starter.html");
+});
 
 
 app.post('/search_b', function (req, res, next) {
