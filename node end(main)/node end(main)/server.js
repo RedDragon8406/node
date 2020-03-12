@@ -30,6 +30,10 @@ app.use('/main', function (req, res, next) {
     console.log("main");
     res.sendFile(__dirname + "/static/main.html");
 });
+app.use('/courses', function(req,res,next){
+    console.log('allCourses');
+    res.sendFile(__dirname + "/static/courses.html");
+})
 app.use('/login', function (req, res, next) {
     console.log("login");
     res.sendFile(__dirname + "/static/login.html");

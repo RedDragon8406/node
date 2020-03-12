@@ -4,10 +4,12 @@
 
 .lastate-posts{
 	font-family: yekan;
-	font-size: 30px;
-	text-align: right;
+  font-size: 30px;
+  font-weight: 700;
+	text-align: center;
 	margin-right: 10px;
-	color: rgb(0,162,252)
+  color: rgb(0, 0, 0)
+  
 }
 
 .dot {

@@ -23,8 +23,9 @@
     <link rel="stylesheet" href="./css/slide.css">
     <link rel="stylesheet" href="./css/dropdown.css">
     <link rel="stylesheet" href="./css/fonts.css">
-	<link rel="stylesheet" href="./css/main.css">
-	<link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 
@@ -35,71 +36,88 @@
     <br>
     <br><br><br>
     <main>
-        <div class="slider" id="main-slider"><!-- outermost container element -->
-            <div class="slider-wrapper"><!-- innermost wrapper element -->
+        <div class="slider" id="main-slider">
+            <!-- outermost container element -->
+            <div class="slider-wrapper">
+                <!-- innermost wrapper element -->
                 <img src="./images/avalish.png" class="slide" /><!-- slides -->
                 <img src="./images/Untitled-1.png" class="slide" />
                 <img src="./images//Untitled-2.png" class="slide" />
             </div>
-        </div>	
-		<div style="text-align:center">
-			<span class="dot" onclick="currentSlide(1)"></span>
-			<span class="dot" onclick="currentSlide(2)"></span>
-			<span class="dot" onclick="currentSlide(3)"></span>
-		</div>
-		<br>
-		<br>
-		<hr class = "hr-main-1">
-		<br>
-		<p class = "lastate-posts"><b>آخرین دوره ها</b></p>
-		<br>
-		<div class="courses" align = "center">
-            <div class="course" align = "center">
-                    <div class="border">
-                        <a href="/python-1"><img src="./images/search/python-tut.png" class="image-box"></a>
-                        <button class="enterCourse">مشاهده ی دوره</button>                       
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <br>
+        <br>
+        <hr class="hr-main-1">
+        <br>
+
+        <div style="width: auto;height: 500px;background-image: url('./images/bg.png');">
+            <br>
+            <p class="lastate-posts" ><b></b>آخرین دوره ها</b></p>
+            <!-- this is section for the last courses -->
+            <section>
+                <div class="courses" align="center">
+                    <div class="course" align="center">
+                        <div class="border">
+                            <a href="/python-1"><img src="./images/search/python-tut.png" class="image-box"></a>
+                            <button class="enterCourse">مشاهده ی دوره</button>
                             <div class="p-box">آموزش پایتون مقدماتی</div>
                             <br>
                             <label dir="rtl" class="price-box">رایگان</label>
-                            <span class="timer">0:06:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                            <span class="timer">0:06:00<i class="material-icons"
+                                    style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
                             <br><br>
+                        </div>
+                        <div class="border">
+                            <a href="/html-1"><img src="./images/search/html_css_-_tut.png" class="image-box"></a>
+                            <button class="enterCourse">مشاهده ی دوره</button>
+                            <div dir="rtl" class="p-box">آموزش طراحی سایت مقدماتی</div>
+                            <br>
+                            <label dir="rtl" class="price-box">رایگان</label>
+                            <span class="timer">0:00:00<i class="material-icons"
+                                    style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                            <br><br>
+                        </div>                    
+                        <div class="border">
+                            <a href="/python-1"><img src="./images/search/node_js.png" class="image-box"></a>
+                            <button class="enterCourse">مشاهده ی دوره</button>
+                            <div dir="rtl" class="p-box">آموزش node js</div>
+                            <br>
+                            <label dir="rtl" class="price-box">40000 تومان</label>
+                            <span class="timer">0:00:00<i class="material-icons"
+                                    style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
+                            <br><br>
+                        </div>
+    
                     </div>
-                    <div class="border">
-                    <a href="/html-1"><img src="./images/search/html_css_-_tut.png" class="image-box"></a>
-                    <button class="enterCourse">مشاهده ی دوره</button>                       
-                        <div dir="rtl" class="p-box">آموزش طراحی سایت مقدماتی</div>
-                        <br>
-                        <label dir="rtl" class="price-box">رایگان</label>
-                        <span class="timer">0:00:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
-                        <br><br>
                 </div>
-				<div class="border">
-                    <a href="/python-1"><img src="./images/search/node_js.png" class="image-box"></a>
-                    <button class="enterCourse">مشاهده ی دوره</button>                       
-                        <div dir="rtl" class="p-box">آموزش node js</div>
-                        <br>
-                        <label dir="rtl" class="price-box">40000 تومان</label>
-                        <span class="timer">0:00:00<i class="material-icons" style="vertical-align: top;font-size: 30px;color: rgb(150, 150, 150);font-weight: 600;margin-top: -5px;">timer</i></span>
-                        <br><br>
-                </div>
+            </section>
+            <div align='center'>
+                <a href="/courses"><button class='lastbtnall' align='center'>مشاهده ی همه ی دوره ها</button></a>
             </div>
+        </div>
     </main>
     <!--header is under slideshow because of the position of slideshow ( it goes upper
     than header when we scroll the page ) -->
     <header>
         <div class="topnav">
-            <img src="./images/scob persian.png" align = "right" class = "Scob-ic" alt=""></a>
-                    <form action="/search">
-                        <input class="search_input" type="text" id="search_i" placeholder="...جستجو کنید" name="search">
-                        <button class="search_but" type="submit" id="search_b"><i class="fa fa-search"></i></button>
-                    </form>
-                    <a href = "/login"><button class = "login-but"><i class = "far fa-address-card"></i> ورود    </button></a>
-                    <br><br>
+            <img src="./images/scob persian.png" align="right" class="Scob-ic" alt=""></a>
+            <form action="/search">
+                <input class="search_input" type="text" id="search_i" placeholder="...جستجو کنید" name="search">
+                <button class="search_but" type="submit" id="search_b"><i class="fa fa-search"></i></button>
+            </form>
+            <a href="/login"><button class="login-but"><i class="far fa-address-card"></i> ورود </button></a>
+            <br><br>
             <br>
             <br>
             <a style="border-radius: 15px;" class="active" href="/main"><i class="fa fa-fw fa-home"></i> خانه</a>
             <div class="dd">
-                <button style="border-radius: 25px;" class="dropbutt"><i class="fa fa-fw fa-list" style="transform: rotate(180deg);"></i> دسته
+                <button style="border-radius: 25px;" class="dropbutt"><i class="fa fa-fw fa-list"
+                        style="transform: rotate(180deg);"></i> دسته
                     بندی</button>
                 <div class="dd-con">
                     <a href="#"><i class="fa fa-fw fa-mobile"></i> محصولات</a>
@@ -115,28 +133,28 @@
             <a style="border-radius: 25px;" href="/scob"><i class="fa fa-fw fa-book"></i> درباره اسکوب</a>
             <a style="border-radius: 25px;" href="/calls"><i class="fa fa-fw fa-headset"></i> تماس با ما</a>
             <a class="mycart" href="/cart"><i class="fa fa-fw fa-shopping-cart"></i>سبد خرید من</a>
-            
+
         </div>
     </header>
     <br>
     <br>
     <br>
     <br>
-    <footer class = "Footer">
+    <footer class="Footer">
         <br>
         <br><br>
-    <div align = "right">
-        <span align = "right" class = "Footer-H">پیوند ها</span>
-        <br>
-        <a href = "/main"><span align = "right" class = "Footer-link">خانه</span></a>
-        <a href = "/login"><span class = "Footer-link">ورود</span></a>
-        <br>
-        <a href = "/calls"><span class = "Footer-link">تماس با ما</span></a>
-        <a href = "/signup"><span class = "Footer-link-1">ثبت نام</span></a>
+        <div align="right">
+            <span align="right" class="Footer-H">پیوند ها</span>
+            <br>
+            <a href="/main"><span align="right" class="Footer-link">خانه</span></a>
+            <a href="/login"><span class="Footer-link">ورود</span></a>
+            <br>
+            <a href="/calls"><span class="Footer-link">تماس با ما</span></a>
+            <a href="/signup"><span class="Footer-link-1">ثبت نام</span></a>
 
-        <br>
-        <a href = "/scob"><span class = "Footer-link">درباره ما</span></a>
-    </div>
+            <br>
+            <a href="/scob"><span class="Footer-link">درباره ما</span></a>
+        </div>
     </footer>
     <script src="./js/function.js"></script>
     <script src="./js/slide.js"></script>
