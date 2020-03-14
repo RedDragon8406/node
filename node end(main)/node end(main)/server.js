@@ -67,6 +67,10 @@ app.use('/html-1', function (req, res, next) {
     console.log("html-1");
     res.sendFile(__dirname+"/static/html - starter.html");
 });
+app.use('/goods', function (req,res,next) {
+    console.log("goods");
+    res.sendFile(__dirname + "/static/goods.html")
+});
 
 
 app.post('/search_b', function (req, res, next) {
