@@ -71,6 +71,12 @@ app.use('/goods', function (req,res,next) {
     console.log("goods");
     res.sendFile(__dirname + "/static/goods.html")
 });
+app.use('/phones', function(req,res,next) {
+    console.log('phones');
+    res.sendFile(__dirname + '/static/phones.html')
+});
+
+
 
 
 app.post('/search_b', function (req, res, next) {

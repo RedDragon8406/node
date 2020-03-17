@@ -3,7 +3,7 @@
     text-align: end;
 }
 .setting{
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(145, 35, 35);
     width: 1115px;
     height: auto;
     text-align: left;
@@ -12,3 +12,5 @@
     margin-left: 25px;
     margin-right: 25px;
 }
+.sources :hover img{
+    filter : brightness(50%);
